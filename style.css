@@ -1,0 +1,66 @@
+
+body{
+   background-color: hsl(0, 0%, 8%);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height:100vh;
+   
+}
+a{
+   display: flex;
+   align-items: center;
+   
+   color:white;
+   text-decoration: none;
+}
+li{
+   display:flex;
+   text-align: center;
+   justify-content: center;
+   height: 60px;
+   width: 300px;
+   text-decoration: none;
+   background-color: hsl(0, 0%, 20%);
+   border-radius: 10px;
+   text-align: center;
+   margin: 10px;
+   
+}
+
+.list-links{   
+   list-style: none;
+}
+
+.container{
+   width: 400px;
+   background-color: hsl(0, 0%, 12%);
+   border-radius: 20px;
+   box-shadow: 5px 5px 5px 0 hsl(0, 0%, 10%);
+   
+
+}
+.name{
+   background-image: url(./img/photo_5436375363840839518_w\ \(1\).jpg)  ;
+   background-repeat: no-repeat;
+   background-position: top;
+   color:aliceblue;
+   border-radius:100%;
+   font-family: "Outfit";
+   font-weight: 600;
+   font-style: normal;
+   padding-top:140px;
+   text-align: center;
+}
+p{
+   margin: 0px;
+   text-align: center;
+   font-family: "Macondo", cursive;
+   font-weight: 400;
+   font-style: normal;
+   color: aliceblue;
+}
+.city{
+   color: hsl(75, 94%, 57%);
+
+}
